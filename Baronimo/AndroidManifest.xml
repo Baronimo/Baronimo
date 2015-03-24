@@ -40,6 +40,11 @@
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="your_apikey" />
+
+        <activity
+            android:name=".PlanCrawl"
+            android:label="@string/title_activity_plan_crawl" >
+        </activity>
     </application>
 
-</manifest> 
+</manifest>
