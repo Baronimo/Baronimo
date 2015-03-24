@@ -47,7 +47,7 @@ public class MainActivity extends Activity implements OnClickListener {
 			setContentView(R.layout.activity_quick_drink);
 			break;
 		case R.id.btnPlan:
-			setContentView(R.id.activity_plan_crawl);
+			setContentView(R.layout.activity_plan_crawl);
 		}
 
 	}
