@@ -8,5 +8,6 @@
     <string name="btnQuick">Quick Drink</string>
     <string name="title_activity_plan_crawl">PlanCrawl</string>
     <string name="title_activity_crawling">Crawling</string>
+     <string name="textQuick">Your Nearest Watering Holes&#8230;</string>
 
 </resources>

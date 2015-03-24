@@ -14,6 +14,10 @@ import com.example.baronimo.R;
 
 public class QuickDrink extends Activity {
 
+	/**
+	 * Shows nearest 3(?) bars on map with description underneath
+	 */
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
