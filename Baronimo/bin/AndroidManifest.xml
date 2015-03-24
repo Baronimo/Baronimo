@@ -45,6 +45,10 @@
             android:name=".PlanCrawl"
             android:label="@string/title_activity_plan_crawl" >
         </activity>
+        <activity
+            android:name=".Crawling"
+            android:label="@string/title_activity_crawling" >
+        </activity>
     </application>
 
 </manifest>
