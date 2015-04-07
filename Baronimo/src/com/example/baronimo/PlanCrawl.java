@@ -17,3 +17,17 @@
  * 
  * @author Matt
 */
+
+package com.example.baronimo;
+
+public class PlanCrawl extends ActionBarActivity {
+	
+
+
+
+private Toolbar toolbar;
+private ViewPager mPager;
+private SlidingTabLayout mTabs;
+
+toolbar = (Toolbar) findViewByID(R.id.app_bar);
+}
