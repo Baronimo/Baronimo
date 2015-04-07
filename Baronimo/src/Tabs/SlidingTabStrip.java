@@ -1,4 +1,4 @@
-package com.example.baronimo;
+package Tabs;
 /*
 * Copyright 2014 Google Inc. All rights reserved.
 *
