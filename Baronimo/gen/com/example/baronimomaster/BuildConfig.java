@@ -1,5 +1,5 @@
 /** Automatically generated file. DO NOT MODIFY */
-package com.example.baronimo;
+package com.example.baronimomaster;
 
 public final class BuildConfig {
     public final static boolean DEBUG = true;
