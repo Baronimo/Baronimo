@@ -16,15 +16,7 @@
     
 <!-- button to link to Quick Crawl Page
 TODO replace with image
- -->    
-    <Button
-        android:id="@+id/btnQuick"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:text="@string/btnQuick" />
+ -->
 
 
 <!-- button to link to Plan Crawl Page
@@ -38,5 +30,13 @@ TODO replace with image
         android:layout_below="@+id/btnQuick"
         android:layout_marginTop="20dp"
         android:text="@string/btnPlan" />
+
+    <Button
+        android:id="@+id/btnQuick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="@string/btnQuick" />
 
 </RelativeLayout>
