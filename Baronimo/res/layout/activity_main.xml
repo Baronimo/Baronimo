@@ -8,6 +8,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.baronimo.MainActivity" >
     
+     <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        ></include>
+    
+    
 <!-- button to link to Quick Crawl Page
 TODO replace with image
  -->    

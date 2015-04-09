@@ -11,14 +11,19 @@
     tools:context="com.example.baronimo.PlanCrawl"
     android:orientation="vertical">
  
+     <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        ></include>
+    
+    
     <com.excample.baronimo.Tabs.SlidingTabLayout
-        android:id="@id/tabs"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     
     <android.support.v4.view.ViewPager
-        android:id="@id/pager"
-        android:layout_width="match_parent"
+         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         >
