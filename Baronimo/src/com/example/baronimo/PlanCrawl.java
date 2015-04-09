@@ -20,14 +20,17 @@
 
 package com.example.baronimo;
 
+import Tabs.SlidingTabLayout;
+import android.support.v4.view.ViewPager;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
+
 public class PlanCrawl extends ActionBarActivity {
 	
-
-
-
-private Toolbar toolbar;
 private ViewPager mPager;
-private SlidingTabLayout mTabs;
+private SlidingTabLayout mTabs;;
 
-toolbar = (Toolbar) findViewByID(R.id.app_bar);
+Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
 }
+
