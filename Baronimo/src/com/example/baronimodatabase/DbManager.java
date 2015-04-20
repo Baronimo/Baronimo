@@ -25,7 +25,7 @@ public class DbManager {
 	      ")";
 		
 		public static final String SQL_DROP_TABLE =
-				"DROP TABLE 8IF EXISTS bars";
+				"DROP TABLE IF EXISTS bars";
 
 
 		public DbHelper(Context context) {

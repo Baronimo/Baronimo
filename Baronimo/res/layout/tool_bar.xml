@@ -9,9 +9,10 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="8dp"
-        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
         android:background="?attr/colorPrimary"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
  
     <FrameLayout
         android:id="@+id/putPrefsContentHere"
